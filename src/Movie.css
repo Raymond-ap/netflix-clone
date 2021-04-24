@@ -1,0 +1,37 @@
+ul,
+li,
+a {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+.movies-wrapper {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin: 1rem;
+}
+
+.movies-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.movie {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.movie img {
+  width: 300px;
+}
+
+.movie p {
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+
+.movie-title {
+  margin: 1rem;
+}
